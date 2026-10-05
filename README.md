@@ -1,17 +1,16 @@
 ![Plugin Icon](assets/icon.png)
 
-# OpenDeck Redragon Streamcraft SS550 Plugin
+# OpenDeck Fifine d6
 
-An unofficial plugin for Redragon Streamcraft SS550
+An unofficial plugin for fifine d6
 
 ## OpenDeck version
 
 Requires OpenDeck 2.5.0 or newer
 
-## Supported devices
+## Supported device
 
-- Redragon Streamcraft SS550 (0200:1000)
-- Redragon Streamcraft SS550 v3 (0200:3000)
+- fifine d6
 
 ## Platform support
 
@@ -21,7 +20,7 @@ Requires OpenDeck 2.5.0 or newer
 
 ## Installation
 
-1. Download an archive from [releases](https://github.com/MMonkeyKiller/opendeck-ss550/releases)
+1. Download an archive from [releases](https://github.com/yarok-k/opendeck-d6/releases)
 2. In OpenDeck: Plugins -> Install from file
 3. Linux: Download [udev rules](./40-opendeck-ss550.rules) and install them by copying into `/etc/udev/rules.d/` and running `sudo udevadm control --reload-rules`
 4. Unplug and plug again the device, restart OpenDeck
